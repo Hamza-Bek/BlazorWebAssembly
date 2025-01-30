@@ -1,0 +1,66 @@
+﻿@page "/"
+@using MasteringBlazor.Services
+@inject IBookService BookService
+
+<PageTitle>Home</PageTitle>
+
+<h1>Hello, world!</h1>
+
+<BookCard Book="_firstBook" WithButton="true"/>
+
+<BookCard Book="_firstBook" WithButton="false" class="mt-3"/>
+
+Welcome to your new app.
+
+<h3>My Cart</h3>
+@foreach (var book in _booksCart)
+{
+    <li>@book.Title</li>
+}
+
+
+<h3>Available Books :</h3>
+<div style="display: flex">
+    @foreach (var book in _books)
+    {
+        <BookCard Book="book" OnAddToCartClicked="AddToCart" />
+    }
+</div>
+
+
+<ModalPopup Title="Hi!" IsOpen="@_IsWelcomeModalOpen" OnCloseClicked=" () => _IsWelcomeModalOpen = false">
+    <ChildContent>
+        <p>
+            Welcome to our new book store, Here you will find all new released books, Huge and perfect collection.
+        </p>
+    </ChildContent>
+    <FooterContent>
+        <button class="btn btn-primary" @onclick="() => _IsWelcomeModalOpen = false">Discover it</button>
+    </FooterContent>
+</ModalPopup>
+
+
+@code {
+
+    private List<Book> _books = new();
+    private List<Book>? _booksCart = new();
+    public bool _IsWelcomeModalOpen { get; set; } = true;
+
+    protected override async Task OnInitializedAsync()
+    {
+        _books = await BookService.GetAllBooksAsync();
+    }
+
+    private void AddToCart(Book book)
+    {
+        _booksCart.Add(book);
+    }
+
+    private Book _firstBook = new Book
+    {
+        AuthorName = "Hamza Bek",
+        PublishingDate = new DateTime(2003, 2, 15),
+        Title = "How to get Born"
+    };
+
+}

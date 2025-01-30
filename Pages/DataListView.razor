@@ -1,0 +1,33 @@
+@typeparam TItemType
+
+<div class="grid-container">
+    @if (Items != null && Items.Any())
+    {
+        foreach (var item in Items)
+        {
+            <div class="grid-item">
+                @ItemTemplate(item)
+            </div>
+        }
+    }
+    else
+    {
+        <h3 class="empty-collection-handle">No Items available....</h3>
+    }
+</div>
+
+@code {
+
+    [Parameter]
+    public List<TItemType> Items { get; set; }
+    
+    [Parameter]
+    public RenderFragment<TItemType> ItemTemplate { get; set; }
+    
+    [Parameter]
+    public EventCallback<TItemType> OnItemClicked { get; set; }
+
+    [Parameter] 
+    public int ColumnsCount { get; set; } = 4;
+
+}

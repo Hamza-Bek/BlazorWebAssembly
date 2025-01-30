@@ -1,0 +1,77 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net9.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = MasteringBlazor
+build_property.RootNamespace = MasteringBlazor
+build_property.ProjectDir = E:\2024's Projects\AouCommunity-v1.0\MasteringBlazor\MasteringBlazor\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = false
+build_property.RazorLangVersion = 9.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = E:\2024's Projects\AouCommunity-v1.0\MasteringBlazor\MasteringBlazor
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 9.0
+build_property.EnableCodeStyleSeverity = 
+
+[E:/2024's Projects/AouCommunity-v1.0/MasteringBlazor/MasteringBlazor/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/2024's Projects/AouCommunity-v1.0/MasteringBlazor/MasteringBlazor/Layout/NavBar.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE5hdkJhci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/2024's Projects/AouCommunity-v1.0/MasteringBlazor/MasteringBlazor/Layout/UserLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XFVzZXJMYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/2024's Projects/AouCommunity-v1.0/MasteringBlazor/MasteringBlazor/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/2024's Projects/AouCommunity-v1.0/MasteringBlazor/MasteringBlazor/Pages/UserPages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlclBhZ2VzXEhvbWUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/2024's Projects/AouCommunity-v1.0/MasteringBlazor/MasteringBlazor/Pages/UserPages/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlclBhZ2VzXF9JbXBvcnRzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/2024's Projects/AouCommunity-v1.0/MasteringBlazor/MasteringBlazor/Pages/Weather.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV2VhdGhlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/2024's Projects/AouCommunity-v1.0/MasteringBlazor/MasteringBlazor/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/2024's Projects/AouCommunity-v1.0/MasteringBlazor/MasteringBlazor/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-5dn53rb6a3
+
+[E:/2024's Projects/AouCommunity-v1.0/MasteringBlazor/MasteringBlazor/Layout/ModalPopup.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1vZGFsUG9wdXAucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-lgsqt4pskt
+
+[E:/2024's Projects/AouCommunity-v1.0/MasteringBlazor/MasteringBlazor/Layout/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-tz2fj137vk
+
+[E:/2024's Projects/AouCommunity-v1.0/MasteringBlazor/MasteringBlazor/Pages/BookCard.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQm9va0NhcmQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-8xqnwhk886
+
+[E:/2024's Projects/AouCommunity-v1.0/MasteringBlazor/MasteringBlazor/Pages/DataListView.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGF0YUxpc3RWaWV3LnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-hot9ic8h2v

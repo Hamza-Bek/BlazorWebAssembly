@@ -5,7 +5,7 @@
     {
         foreach (var item in Items)
         {
-            <div class="grid-item">
+            <div class="grid-item" style="width: @_columnsWidth%" @onclick=" () => OnItemClicked.InvokeAsync(item)">
                 @ItemTemplate(item)
             </div>
         }
@@ -17,7 +17,8 @@
 </div>
 
 @code {
-
+    private int _columnsWidth => 100 / ColumnsCount;
+    
     [Parameter]
     public List<TItemType> Items { get; set; }
     

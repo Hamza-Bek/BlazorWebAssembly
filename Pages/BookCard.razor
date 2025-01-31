@@ -1,9 +1,9 @@
 @page "/bookcard"
-@using System.Diagnostics
+@inject NavigationManager _Navigation
 
 
 
-<div style="border:1px solid black; padding:3px" @attributes="UserAttributes" class="card">
+<div style="border:1px solid black; padding:3px" @attributes="UserAttributes" class="card" @onclick="NavigateToBookDetails">
     <h6>@Book?.Title</h6>
     <p>Author : @Book?.AuthorName</p>
     <p>Publishing date : @Book?.PublishingDate</p>
@@ -26,5 +26,11 @@
     public void AddToCart()
     {
         OnAddToCartClicked.InvokeAsync(Book);
+    }
+    
+    private void NavigateToBookDetails()
+    {
+        var url = $"/book/{Book?.Id}";
+        _Navigation.NavigateTo(url);
     }
 }

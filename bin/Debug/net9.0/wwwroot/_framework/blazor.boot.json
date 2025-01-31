@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "MasteringBlazor",
   "resources": {
-    "hash": "sha256-xiNWOH7Hf9Cqrq0qBHRCWKdTJLOlfRr2z4J1pPAEfWs=",
+    "hash": "sha256-itFGDC0spj8afv49JoJirJPCCdvxOhyX2r7VpQ46T+g=",
     "fingerprinting": {
       "Microsoft.AspNetCore.Authorization.qe23mgxr71.wasm": "Microsoft.AspNetCore.Authorization.wasm",
       "Microsoft.AspNetCore.Components.flveird317.wasm": "Microsoft.AspNetCore.Components.wasm",
@@ -201,8 +201,10 @@
       "icudt_CJK.tjcz0u77k5.dat": "icudt_CJK.dat",
       "icudt_EFIGS.tptq2av103.dat": "icudt_EFIGS.dat",
       "icudt_no_CJK.lfu7j35m59.dat": "icudt_no_CJK.dat",
-      "MasteringBlazor.3quo45g5g1.wasm": "MasteringBlazor.wasm",
-      "MasteringBlazor.81hexboi30.pdb": "MasteringBlazor.pdb"
+      "BookStore.Blazor.Components.kv664yw8xi.wasm": "BookStore.Blazor.Components.wasm",
+      "BookStore.Blazor.Components.609r89vxht.pdb": "BookStore.Blazor.Components.pdb",
+      "MasteringBlazor.9yi68qpa6x.wasm": "MasteringBlazor.wasm",
+      "MasteringBlazor.mqdq25zt7r.pdb": "MasteringBlazor.pdb"
     },
     "jsModuleNative": {
       "dotnet.native.8o8n7iomrf.js": "sha256-WIUiy49hHQ3kOAtRdCtUzm3Yg5BnOqCC+Q+kri9Fi1g="
@@ -412,10 +414,12 @@
       "WindowsBase.377bly7twj.wasm": "sha256-0VmBdMjdc0nZGHDSfaGirT6y3mJTM0qx8eqCUC/rpiE=",
       "mscorlib.o0184ey5ia.wasm": "sha256-2GxNKZQJVJvYMUxSTuXa5V2qxawSMMHZtwG33SKVCZU=",
       "netstandard.hb3h2rr8mk.wasm": "sha256-DWn9+RH/ElZQ6imlYqVwZvir1KTzNwY18AzGmnyiymU=",
-      "MasteringBlazor.3quo45g5g1.wasm": "sha256-dVameAgwL1HzxDXnlOY1OAoR9lW7+NJYUxy0Ss7Y3yA="
+      "BookStore.Blazor.Components.kv664yw8xi.wasm": "sha256-ULThGIz351ti5fV68GWMBN+gt4c5C0pVlc/x+yB0sww=",
+      "MasteringBlazor.9yi68qpa6x.wasm": "sha256-j5p44mk4vNOXE6JKJOunxR1mGAMBlVzsDCeTbA1o4a4="
     },
     "pdb": {
-      "MasteringBlazor.81hexboi30.pdb": "sha256-ROUFCEvus+bIUfvcXC557yxojA/WAzJQtXVO1zrFivA="
+      "BookStore.Blazor.Components.609r89vxht.pdb": "sha256-VmIOvesiehNSe24L06FmbIgQE/4pSpSxmixQgEEyZhc=",
+      "MasteringBlazor.mqdq25zt7r.pdb": "sha256-Dq4K2YuxFNIq198Z9UZDbBU340wk56tgIQ3y3NePO+c="
     }
   },
   "cacheBootResources": true,

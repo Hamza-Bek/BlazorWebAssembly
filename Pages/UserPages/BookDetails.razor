@@ -1,0 +1,26 @@
+@page "/book/{BookId}"
+@inject IBookService _BooksService
+
+<PageTitle> Book Details | @_book?.Title</PageTitle>
+<h2> @_book?.AuthorName</h2>
+<ul>
+    <li>@_book?.Id</li>
+    <li>@_book.PublishingDate</li>
+</ul>
+
+
+@code {
+    [Parameter]
+    public string? BookId { get; set; }
+    private Book? _book = null;
+    protected async override Task OnInitializedAsync()
+    {
+        _book = await _BooksService.GetBookByIdAsync(BookId);
+    }
+    
+    protected override void OnParametersSet()
+    {
+        Console.WriteLine($"The Books Id is {BookId}");
+    }
+
+}

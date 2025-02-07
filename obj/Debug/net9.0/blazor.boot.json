@@ -1,8 +1,9 @@
 {
   "mainAssemblyName": "MasteringBlazor",
   "resources": {
-    "hash": "sha256-3VZ0PdaqDBp/mAQHogRWKUCTZALGVq7wIPonql5yJWU=",
+    "hash": "sha256-gblIlxCASZr7NvSah8knpNRvTbxPehIRUsMoA7k5LSc=",
     "fingerprinting": {
+      "Blazored.LocalStorage.12n6dz54qr.wasm": "Blazored.LocalStorage.wasm",
       "Microsoft.AspNetCore.Authorization.qe23mgxr71.wasm": "Microsoft.AspNetCore.Authorization.wasm",
       "Microsoft.AspNetCore.Components.flveird317.wasm": "Microsoft.AspNetCore.Components.wasm",
       "Microsoft.AspNetCore.Components.Forms.thhw8cz9wu.wasm": "Microsoft.AspNetCore.Components.Forms.wasm",
@@ -201,10 +202,10 @@
       "icudt_CJK.tjcz0u77k5.dat": "icudt_CJK.dat",
       "icudt_EFIGS.tptq2av103.dat": "icudt_EFIGS.dat",
       "icudt_no_CJK.lfu7j35m59.dat": "icudt_no_CJK.dat",
-      "BookStore.Blazor.Components.a23eqfmepi.wasm": "BookStore.Blazor.Components.wasm",
-      "BookStore.Blazor.Components.fi1iuj5qwz.pdb": "BookStore.Blazor.Components.pdb",
-      "MasteringBlazor.peve52l1pg.wasm": "MasteringBlazor.wasm",
-      "MasteringBlazor.wdppuv2vqg.pdb": "MasteringBlazor.pdb"
+      "BookStore.Blazor.Components.m9c5sfyqxz.wasm": "BookStore.Blazor.Components.wasm",
+      "BookStore.Blazor.Components.d9xz9ny0tc.pdb": "BookStore.Blazor.Components.pdb",
+      "MasteringBlazor.7snmgx3l7g.wasm": "MasteringBlazor.wasm",
+      "MasteringBlazor.9yvydnwulc.pdb": "MasteringBlazor.pdb"
     },
     "jsModuleNative": {
       "dotnet.native.8o8n7iomrf.js": "sha256-WIUiy49hHQ3kOAtRdCtUzm3Yg5BnOqCC+Q+kri9Fi1g="
@@ -225,6 +226,7 @@
       "System.Private.CoreLib.fk089ohxy8.wasm": "sha256-3w3kRfKPH1QdD/KZ69pXxig13Aan9AlVD/FAJau8fC0="
     },
     "assembly": {
+      "Blazored.LocalStorage.12n6dz54qr.wasm": "sha256-OaMAAd5n7ORfyur5e3QIyEVKJ76MKIvwbg7/icnnYcU=",
       "Microsoft.AspNetCore.Authorization.qe23mgxr71.wasm": "sha256-8hTdrmR59LAJRrDu8LLRlNn641/iWIAjzG1GcCsAhR0=",
       "Microsoft.AspNetCore.Components.flveird317.wasm": "sha256-jTpt9y+Fzn6JeLtdS0PwW+fzVCyw2aJ8kFuDQAMFdcE=",
       "Microsoft.AspNetCore.Components.Forms.thhw8cz9wu.wasm": "sha256-b7dkg8tMPT2fEN10cgvga1DuG4BElomG5PE4E8Bv5B8=",
@@ -414,12 +416,12 @@
       "WindowsBase.377bly7twj.wasm": "sha256-0VmBdMjdc0nZGHDSfaGirT6y3mJTM0qx8eqCUC/rpiE=",
       "mscorlib.o0184ey5ia.wasm": "sha256-2GxNKZQJVJvYMUxSTuXa5V2qxawSMMHZtwG33SKVCZU=",
       "netstandard.hb3h2rr8mk.wasm": "sha256-DWn9+RH/ElZQ6imlYqVwZvir1KTzNwY18AzGmnyiymU=",
-      "BookStore.Blazor.Components.a23eqfmepi.wasm": "sha256-At2XR9XvP0F64t0kqCoUhD+fHdBy3fgDJDW/KbLenyk=",
-      "MasteringBlazor.peve52l1pg.wasm": "sha256-f2wMoq0SoqqyTw336+aBYSXfia0wY1vMJl6jLUIKT5M="
+      "BookStore.Blazor.Components.m9c5sfyqxz.wasm": "sha256-plrPdQLFRUacfE4Z6QqW/rx8oA3RPJMbPjbPJd9IfTI=",
+      "MasteringBlazor.7snmgx3l7g.wasm": "sha256-GTq3IS0orGOkDSXjVOHLWodFAz6rurwr9IZf8fyrgnU="
     },
     "pdb": {
-      "BookStore.Blazor.Components.fi1iuj5qwz.pdb": "sha256-J7LBz+QL+wd9I97nTvXQXhDHLiVTAtY6srLvJM+JaDs=",
-      "MasteringBlazor.wdppuv2vqg.pdb": "sha256-xObuc+WvGrscsgO6ArOeFAwkKizrXT+jrvRP3LYW7WY="
+      "BookStore.Blazor.Components.d9xz9ny0tc.pdb": "sha256-3+dNDJuLfLGbHauwTH7M+Q8aHxEJfpj1Tv1AVMiKqFE=",
+      "MasteringBlazor.9yvydnwulc.pdb": "sha256-v8BiFb3649ejV8T2xkokrvjEwbRxW4TrPgSmeOwgaqE="
     }
   },
   "cacheBootResources": true,

@@ -1,4 +1,8 @@
 @page "/forms/bookform"
+@using Blazored.LocalStorage
+@using BookStore.Blazor.Components
+@inject ILocalStorageService LocalStorage
+@implements IDisposable
 <PageTitle>Book Form | Add new book</PageTitle>
 
 <div class="row">
@@ -14,7 +18,8 @@
             </div>
             <div class="form-group mt-1">
                 <label for="description">Description</label>
-                <InputTextArea type="text" class="form-control" id="description" placeholder="Enter author" @bind-value="_book.Description"/>
+                @* <InputTextArea type="text" class="form-control" id="description" placeholder="Enter author" @bind-value="_book.Description"/> *@
+                <BlazorSimpleMde @ref="_simpleMde" Content="@_book?.Description" />
                 <ValidationMessage For="() => _book.Description" />
             </div>
             <div class="form-group mt-1">
@@ -82,18 +87,24 @@
 </div>
 
 @code {
-    //This line is from the origin directory
+    
     private SubmitBook _book = new();
     private BookFormat _bookFormat = BookFormat.Both;
-    // This is a testing line from the Fixing Brnach
-    private void HandleBookSubmission()
+    private BlazorSimpleMde _simpleMde;
+    private System.Timers.Timer _timer = new System.Timers.Timer();
+    
+    protected override async Task OnInitializedAsync()
     {
-        Console.WriteLine("The book has been submitted");
-        Console.WriteLine($"Title: {_book.Title}");
-        Console.WriteLine($"Description: {_book.Description}");
-        Console.WriteLine($"Author: {_book.Author}");
+        SetupTimer();
+        await CheckSaveStateAsync();
     }
-    //this line from the origin branch
+    
+    private async void HandleBookSubmission()
+    {
+        _book.Description = await _simpleMde.GetEditorValueAsync();
+        await ClearSavedStateAsync();
+    }
+    
     private void OnFileSelected(InputFileChangeEventArgs e)
     {
         var file = e.File;
@@ -101,4 +112,55 @@
         Console.WriteLine($"File size: {file.Size} bytes");
         var stream = file.OpenReadStream();
     }
+
+    private async Task SaveFormStateAsync()
+    {
+        try
+        {
+            _book.Description = await _simpleMde.GetEditorValueAsync();
+            await LocalStorage.SetItemAsync("book", _book);
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error in SaveFormStateAsync: {ex.Message}");
+        }
+    }
+
+    private async Task CheckSaveStateAsync()
+    {
+        if (await LocalStorage.ContainKeyAsync("book"))
+        {
+            _book = await LocalStorage.GetItemAsync<SubmitBook>("book");
+        }
+    }
+
+    private async Task ClearSavedStateAsync()
+    {
+        await LocalStorage.RemoveItemAsync("book");
+    }
+
+    private void SetupTimer()
+    {
+        var second = 1000;
+        _timer.Interval = 10 * second;
+        _timer.Elapsed += async (sender, e) =>
+        {
+            try
+            {
+                await SaveFormStateAsync();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error in timer elapsed event: {ex.Message}");
+            }
+        };
+        _timer.Start();
+    }
+    
+    public void Dispose()
+    {
+        _timer.Dispose();
+        _timer.Stop();
+    }
+
 }

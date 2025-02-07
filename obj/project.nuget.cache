@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "RpzaBNq4p2o=",
+  "dgSpecHash": "K+7GhuGmuoo=",
   "success": true,
   "projectFilePath": "E:\\2024's Projects\\AouCommunity-v1.0\\MasteringBlazor\\MasteringBlazor\\MasteringBlazor.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Toshiba\\.nuget\\packages\\blazored.localstorage\\4.5.0\\blazored.localstorage.4.5.0.nupkg.sha512",
     "C:\\Users\\Toshiba\\.nuget\\packages\\microsoft.aspnetcore.authorization\\9.0.1\\microsoft.aspnetcore.authorization.9.0.1.nupkg.sha512",
     "C:\\Users\\Toshiba\\.nuget\\packages\\microsoft.aspnetcore.components\\9.0.1\\microsoft.aspnetcore.components.9.0.1.nupkg.sha512",
     "C:\\Users\\Toshiba\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\9.0.1\\microsoft.aspnetcore.components.analyzers.9.0.1.nupkg.sha512",

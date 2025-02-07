@@ -1,3 +1,4 @@
+@inject  IJSRuntime JSRuntime
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
         <a class="navbar-brand" href="">BooksStore</a>
@@ -17,9 +18,17 @@
                 </li>
             </ul>
         </div>
+        <div class="d-felx">
+            <button class="btn btn-outline-primary" @onclick="ShowAlert">Login</button>
+        </div>
     </div>
 </nav>
 
 @code {
-    
+
+    private void ShowAlert()
+    {
+        var jsInpProcess = (JSInProcessRuntime) JSRuntime;
+        JSRuntime.InvokeVoidAsync("showAlert", "unknown users");
+    }
 }

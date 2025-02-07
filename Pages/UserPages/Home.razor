@@ -1,5 +1,5 @@
 ﻿@page "/"
-@using MasteringBlazor.Services
+@inject IJSRuntime JSRuntime
 @inject IBookService BookService
 
 <PageTitle>Home</PageTitle>
@@ -38,6 +38,7 @@ Welcome to your new app.
 
     protected override async Task OnInitializedAsync()
     {
+        var module = await JSRuntime.InvokeAsync<IJSObjectReference>("import", "./js/script.js");
         _books = await BookService.GetAllBooksAsync();
     }
 

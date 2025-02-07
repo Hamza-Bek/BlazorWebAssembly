@@ -383,6 +383,304 @@
       ]
     },
     {
+      "Route": "blazor-simplemde.ajrhdfqclw.js",
+      "AssetFile": "blazor-simplemde.js.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.005988023952"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "166"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"S9UkDDdMYAA4z6K1YVY8bhE4R/VQKRSnj1D02SDowZA=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"pg7hp+6MQ4J1Q8ZJvnjpg3jFDGPaZ65UFLHxHgoNwVw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 07 Feb 2025 16:03:55 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ajrhdfqclw"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pg7hp+6MQ4J1Q8ZJvnjpg3jFDGPaZ65UFLHxHgoNwVw="
+        },
+        {
+          "Name": "label",
+          "Value": "blazor-simplemde.js"
+        }
+      ]
+    },
+    {
+      "Route": "blazor-simplemde.ajrhdfqclw.js",
+      "AssetFile": "blazor-simplemde.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "316"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pg7hp+6MQ4J1Q8ZJvnjpg3jFDGPaZ65UFLHxHgoNwVw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 07 Feb 2025 16:03:55 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ajrhdfqclw"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pg7hp+6MQ4J1Q8ZJvnjpg3jFDGPaZ65UFLHxHgoNwVw="
+        },
+        {
+          "Name": "label",
+          "Value": "blazor-simplemde.js"
+        }
+      ]
+    },
+    {
+      "Route": "blazor-simplemde.ajrhdfqclw.js.gz",
+      "AssetFile": "blazor-simplemde.js.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "166"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"S9UkDDdMYAA4z6K1YVY8bhE4R/VQKRSnj1D02SDowZA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 07 Feb 2025 16:03:55 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ajrhdfqclw"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-S9UkDDdMYAA4z6K1YVY8bhE4R/VQKRSnj1D02SDowZA="
+        },
+        {
+          "Name": "label",
+          "Value": "blazor-simplemde.js.gz"
+        }
+      ]
+    },
+    {
+      "Route": "blazor-simplemde.js",
+      "AssetFile": "blazor-simplemde.js.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.005988023952"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "166"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"S9UkDDdMYAA4z6K1YVY8bhE4R/VQKRSnj1D02SDowZA=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"pg7hp+6MQ4J1Q8ZJvnjpg3jFDGPaZ65UFLHxHgoNwVw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 07 Feb 2025 16:03:55 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pg7hp+6MQ4J1Q8ZJvnjpg3jFDGPaZ65UFLHxHgoNwVw="
+        }
+      ]
+    },
+    {
+      "Route": "blazor-simplemde.js",
+      "AssetFile": "blazor-simplemde.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "316"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pg7hp+6MQ4J1Q8ZJvnjpg3jFDGPaZ65UFLHxHgoNwVw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 07 Feb 2025 16:03:55 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pg7hp+6MQ4J1Q8ZJvnjpg3jFDGPaZ65UFLHxHgoNwVw="
+        }
+      ]
+    },
+    {
+      "Route": "blazor-simplemde.js.gz",
+      "AssetFile": "blazor-simplemde.js.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "166"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"S9UkDDdMYAA4z6K1YVY8bhE4R/VQKRSnj1D02SDowZA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 07 Feb 2025 16:03:55 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-S9UkDDdMYAA4z6K1YVY8bhE4R/VQKRSnj1D02SDowZA="
+        }
+      ]
+    },
+    {
       "Route": "exampleJsInterop.6pqz8bsss0.js",
       "AssetFile": "exampleJsInterop.js.gz",
       "Selectors": [

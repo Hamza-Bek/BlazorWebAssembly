@@ -9,6 +9,14 @@
       "PackagePath": "staticwebassets\\MasteringBlazor.styles.css"
     },
     {
+      "Id": "E:\\2024's Projects\\AouCommunity-v1.0\\MasteringBlazor\\MasteringBlazor\\wwwroot\\Js\\script.js",
+      "PackagePath": "staticwebassets\\Js\\script.js"
+    },
+    {
+      "Id": "E:\\2024's Projects\\AouCommunity-v1.0\\MasteringBlazor\\MasteringBlazor\\wwwroot\\Js\\site.js",
+      "PackagePath": "staticwebassets\\Js\\site.js"
+    },
+    {
       "Id": "E:\\2024's Projects\\AouCommunity-v1.0\\MasteringBlazor\\MasteringBlazor\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
     },

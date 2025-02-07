@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "MJ+Ph9xKT94JziESC3xq+2Hxos8x+vzhp81kFz6tyAE=",
+  "Hash": "KQbdd5nkO/tgAD2e6eU/5Ih2neOJhBRcCMpOLJJQJSI=",
   "Source": "MasteringBlazor",
   "BasePath": "/",
   "Mode": "Root",
@@ -197,8 +197,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "kveme7ankw",
-      "Integrity": "MGFc8pW71EuO0JEL3IoAK/dqAnbnO9Cfe2yDceo5Dy8=",
+      "Fingerprint": "39w57ibq2y",
+      "Integrity": "h1EpiCdG4aAQPjo6qxoVFVMU/NAN3f7gibVm9rVifI4=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net9.0\\blazor.boot.json"
@@ -491,8 +491,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "9yvydnwulc",
-      "Integrity": "v8BiFb3649ejV8T2xkokrvjEwbRxW4TrPgSmeOwgaqE=",
+      "Fingerprint": "d8o1axom7k",
+      "Integrity": "E2E1vlsZqqTfjSHJMznmYLwfhXu7+by+RKdbarSF1T8=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net9.0\\MasteringBlazor.pdb"
@@ -512,8 +512,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "7snmgx3l7g",
-      "Integrity": "GTq3IS0orGOkDSXjVOHLWodFAz6rurwr9IZf8fyrgnU=",
+      "Fingerprint": "wanni0xrlo",
+      "Integrity": "uPdUBvvXnwpYhILFnA4k8cS5mmD9Ie7fwunQgZrd0fY=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "E:\\2024's Projects\\AouCommunity-v1.0\\MasteringBlazor\\MasteringBlazor\\obj\\Debug\\net9.0\\webcil\\MasteringBlazor.wasm"
@@ -4782,7 +4782,7 @@
       "OriginalItemSpec": "E:\\2024's Projects\\AouCommunity-v1.0\\MasteringBlazor\\MasteringBlazor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.Extensions.Primitives.wasm"
     },
     {
-      "Identity": "E:\\2024's Projects\\AouCommunity-v1.0\\MasteringBlazor\\MasteringBlazor\\obj\\Debug\\net9.0\\compressed\\15lgbznqwy-kveme7ankw.gz",
+      "Identity": "E:\\2024's Projects\\AouCommunity-v1.0\\MasteringBlazor\\MasteringBlazor\\obj\\Debug\\net9.0\\compressed\\15lgbznqwy-39w57ibq2y.gz",
       "SourceId": "MasteringBlazor",
       "SourceType": "Computed",
       "ContentRoot": "E:\\2024's Projects\\AouCommunity-v1.0\\MasteringBlazor\\MasteringBlazor\\obj\\Debug\\net9.0\\compressed\\",
@@ -4796,8 +4796,8 @@
       "RelatedAsset": "E:\\2024's Projects\\AouCommunity-v1.0\\MasteringBlazor\\MasteringBlazor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "umo18vyfvl",
-      "Integrity": "CgkvxaUTtEGYc4v0e0wl2ZTPi6SmxsSglh4T866IB34=",
+      "Fingerprint": "madxk70bzr",
+      "Integrity": "cm6xIfBosQeyEWxrR2j37qnC7/iH2TQkmm7RZk9zUT8=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "E:\\2024's Projects\\AouCommunity-v1.0\\MasteringBlazor\\MasteringBlazor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\blazor.boot.json"
@@ -5223,12 +5223,12 @@
       "OriginalItemSpec": "E:\\2024's Projects\\AouCommunity-v1.0\\MasteringBlazor\\MasteringBlazor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "E:\\2024's Projects\\AouCommunity-v1.0\\MasteringBlazor\\MasteringBlazor\\obj\\Debug\\net9.0\\compressed\\3azx4pkcnm-7snmgx3l7g.gz",
+      "Identity": "E:\\2024's Projects\\AouCommunity-v1.0\\MasteringBlazor\\MasteringBlazor\\obj\\Debug\\net9.0\\compressed\\3azx4pkcnm-wanni0xrlo.gz",
       "SourceId": "MasteringBlazor",
       "SourceType": "Computed",
       "ContentRoot": "E:\\2024's Projects\\AouCommunity-v1.0\\MasteringBlazor\\MasteringBlazor\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/MasteringBlazor#[.{fingerprint=7snmgx3l7g}]!.wasm.gz",
+      "RelativePath": "_framework/MasteringBlazor#[.{fingerprint=wanni0xrlo}]!.wasm.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -5237,8 +5237,8 @@
       "RelatedAsset": "E:\\2024's Projects\\AouCommunity-v1.0\\MasteringBlazor\\MasteringBlazor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\MasteringBlazor.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "ccaz0zscbt",
-      "Integrity": "5LQCZ8wTYMmiNMVOpGxTOawThx7u06lBRy+w35T09dU=",
+      "Fingerprint": "2dvhktoqvp",
+      "Integrity": "+h5PJlkyuPm/YHjWZ/nL+0+EC4d3aQQeyAdKsFeBQKM=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "E:\\2024's Projects\\AouCommunity-v1.0\\MasteringBlazor\\MasteringBlazor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\MasteringBlazor.wasm"
@@ -9066,12 +9066,12 @@
       "OriginalItemSpec": "E:\\2024's Projects\\AouCommunity-v1.0\\MasteringBlazor\\MasteringBlazor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.Diagnostics.Contracts.wasm"
     },
     {
-      "Identity": "E:\\2024's Projects\\AouCommunity-v1.0\\MasteringBlazor\\MasteringBlazor\\obj\\Debug\\net9.0\\compressed\\tdszj6nslm-9yvydnwulc.gz",
+      "Identity": "E:\\2024's Projects\\AouCommunity-v1.0\\MasteringBlazor\\MasteringBlazor\\obj\\Debug\\net9.0\\compressed\\tdszj6nslm-d8o1axom7k.gz",
       "SourceId": "MasteringBlazor",
       "SourceType": "Computed",
       "ContentRoot": "E:\\2024's Projects\\AouCommunity-v1.0\\MasteringBlazor\\MasteringBlazor\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/MasteringBlazor#[.{fingerprint=9yvydnwulc}]!.pdb.gz",
+      "RelativePath": "_framework/MasteringBlazor#[.{fingerprint=d8o1axom7k}]!.pdb.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -9080,8 +9080,8 @@
       "RelatedAsset": "E:\\2024's Projects\\AouCommunity-v1.0\\MasteringBlazor\\MasteringBlazor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\MasteringBlazor.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "p970p55dpc",
-      "Integrity": "M17cvSDySyu5DjKws2HQoMHFa1BYKfkLPqqb3cQW6Vs=",
+      "Fingerprint": "40jlsg95vt",
+      "Integrity": "jAA37cmWjYb0ERm8mqVUS1uY5z6as13sB4Q/nn+KqZY=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "E:\\2024's Projects\\AouCommunity-v1.0\\MasteringBlazor\\MasteringBlazor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\MasteringBlazor.pdb"
@@ -12057,11 +12057,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"MGFc8pW71EuO0JEL3IoAK/dqAnbnO9Cfe2yDceo5Dy8=\""
+          "Value": "\"h1EpiCdG4aAQPjo6qxoVFVMU/NAN3f7gibVm9rVifI4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Feb 2025 16:21:17 GMT"
+          "Value": "Fri, 07 Feb 2025 17:45:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12071,18 +12071,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-MGFc8pW71EuO0JEL3IoAK/dqAnbnO9Cfe2yDceo5Dy8="
+          "Value": "sha256-h1EpiCdG4aAQPjo6qxoVFVMU/NAN3f7gibVm9rVifI4="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json",
-      "AssetFile": "E:\\2024's Projects\\AouCommunity-v1.0\\MasteringBlazor\\MasteringBlazor\\obj\\Debug\\net9.0\\compressed\\15lgbznqwy-kveme7ankw.gz",
+      "AssetFile": "E:\\2024's Projects\\AouCommunity-v1.0\\MasteringBlazor\\MasteringBlazor\\obj\\Debug\\net9.0\\compressed\\15lgbznqwy-39w57ibq2y.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000079923274"
+          "Quality": "0.000079904115"
         }
       ],
       "ResponseHeaders": [
@@ -12092,15 +12092,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12511"
+          "Value": "12514"
         },
         {
           "Name": "ETag",
-          "Value": "\"CgkvxaUTtEGYc4v0e0wl2ZTPi6SmxsSglh4T866IB34=\""
+          "Value": "\"cm6xIfBosQeyEWxrR2j37qnC7/iH2TQkmm7RZk9zUT8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Feb 2025 16:19:37 GMT"
+          "Value": "Fri, 07 Feb 2025 17:29:17 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12120,19 +12120,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"MGFc8pW71EuO0JEL3IoAK/dqAnbnO9Cfe2yDceo5Dy8=\""
+          "Value": "W/\"h1EpiCdG4aAQPjo6qxoVFVMU/NAN3f7gibVm9rVifI4=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-MGFc8pW71EuO0JEL3IoAK/dqAnbnO9Cfe2yDceo5Dy8="
+          "Value": "sha256-h1EpiCdG4aAQPjo6qxoVFVMU/NAN3f7gibVm9rVifI4="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "E:\\2024's Projects\\AouCommunity-v1.0\\MasteringBlazor\\MasteringBlazor\\obj\\Debug\\net9.0\\compressed\\15lgbznqwy-kveme7ankw.gz",
+      "AssetFile": "E:\\2024's Projects\\AouCommunity-v1.0\\MasteringBlazor\\MasteringBlazor\\obj\\Debug\\net9.0\\compressed\\15lgbznqwy-39w57ibq2y.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12141,7 +12141,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12511"
+          "Value": "12514"
         },
         {
           "Name": "Content-Type",
@@ -12149,11 +12149,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"CgkvxaUTtEGYc4v0e0wl2ZTPi6SmxsSglh4T866IB34=\""
+          "Value": "\"cm6xIfBosQeyEWxrR2j37qnC7/iH2TQkmm7RZk9zUT8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Feb 2025 16:19:37 GMT"
+          "Value": "Fri, 07 Feb 2025 17:29:17 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12171,7 +12171,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-CgkvxaUTtEGYc4v0e0wl2ZTPi6SmxsSglh4T866IB34="
+          "Value": "sha256-cm6xIfBosQeyEWxrR2j37qnC7/iH2TQkmm7RZk9zUT8="
         }
       ]
     },
@@ -15889,168 +15889,7 @@
       ]
     },
     {
-      "Route": "_framework/MasteringBlazor.7snmgx3l7g.wasm",
-      "AssetFile": "E:\\2024's Projects\\AouCommunity-v1.0\\MasteringBlazor\\MasteringBlazor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\MasteringBlazor.wasm",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "54549"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"GTq3IS0orGOkDSXjVOHLWodFAz6rurwr9IZf8fyrgnU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 07 Feb 2025 16:12:02 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "7snmgx3l7g"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/MasteringBlazor.wasm"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-GTq3IS0orGOkDSXjVOHLWodFAz6rurwr9IZf8fyrgnU="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/MasteringBlazor.7snmgx3l7g.wasm",
-      "AssetFile": "E:\\2024's Projects\\AouCommunity-v1.0\\MasteringBlazor\\MasteringBlazor\\obj\\Debug\\net9.0\\compressed\\3azx4pkcnm-7snmgx3l7g.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000045022736"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "22210"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"5LQCZ8wTYMmiNMVOpGxTOawThx7u06lBRy+w35T09dU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 07 Feb 2025 16:12:03 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"GTq3IS0orGOkDSXjVOHLWodFAz6rurwr9IZf8fyrgnU=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "7snmgx3l7g"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/MasteringBlazor.wasm"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-GTq3IS0orGOkDSXjVOHLWodFAz6rurwr9IZf8fyrgnU="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/MasteringBlazor.7snmgx3l7g.wasm.gz",
-      "AssetFile": "E:\\2024's Projects\\AouCommunity-v1.0\\MasteringBlazor\\MasteringBlazor\\obj\\Debug\\net9.0\\compressed\\3azx4pkcnm-7snmgx3l7g.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "22210"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"5LQCZ8wTYMmiNMVOpGxTOawThx7u06lBRy+w35T09dU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 07 Feb 2025 16:12:03 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "7snmgx3l7g"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/MasteringBlazor.wasm.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-5LQCZ8wTYMmiNMVOpGxTOawThx7u06lBRy+w35T09dU="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/MasteringBlazor.9yvydnwulc.pdb",
+      "Route": "_framework/MasteringBlazor.d8o1axom7k.pdb",
       "AssetFile": "E:\\2024's Projects\\AouCommunity-v1.0\\MasteringBlazor\\MasteringBlazor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\MasteringBlazor.pdb",
       "Selectors": [],
       "ResponseHeaders": [
@@ -16060,7 +15899,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "46612"
+          "Value": "48132"
         },
         {
           "Name": "Content-Type",
@@ -16068,11 +15907,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"v8BiFb3649ejV8T2xkokrvjEwbRxW4TrPgSmeOwgaqE=\""
+          "Value": "\"E2E1vlsZqqTfjSHJMznmYLwfhXu7+by+RKdbarSF1T8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Feb 2025 16:12:02 GMT"
+          "Value": "Fri, 07 Feb 2025 17:45:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -16082,7 +15921,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "9yvydnwulc"
+          "Value": "d8o1axom7k"
         },
         {
           "Name": "label",
@@ -16090,18 +15929,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-v8BiFb3649ejV8T2xkokrvjEwbRxW4TrPgSmeOwgaqE="
+          "Value": "sha256-E2E1vlsZqqTfjSHJMznmYLwfhXu7+by+RKdbarSF1T8="
         }
       ]
     },
     {
-      "Route": "_framework/MasteringBlazor.9yvydnwulc.pdb",
-      "AssetFile": "E:\\2024's Projects\\AouCommunity-v1.0\\MasteringBlazor\\MasteringBlazor\\obj\\Debug\\net9.0\\compressed\\tdszj6nslm-9yvydnwulc.gz",
+      "Route": "_framework/MasteringBlazor.d8o1axom7k.pdb",
+      "AssetFile": "E:\\2024's Projects\\AouCommunity-v1.0\\MasteringBlazor\\MasteringBlazor\\obj\\Debug\\net9.0\\compressed\\tdszj6nslm-d8o1axom7k.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000027225701"
+          "Quality": "0.000026379656"
         }
       ],
       "ResponseHeaders": [
@@ -16111,15 +15950,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "36729"
+          "Value": "37907"
         },
         {
           "Name": "ETag",
-          "Value": "\"M17cvSDySyu5DjKws2HQoMHFa1BYKfkLPqqb3cQW6Vs=\""
+          "Value": "\"jAA37cmWjYb0ERm8mqVUS1uY5z6as13sB4Q/nn+KqZY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Feb 2025 16:12:03 GMT"
+          "Value": "Fri, 07 Feb 2025 17:45:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -16139,13 +15978,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"v8BiFb3649ejV8T2xkokrvjEwbRxW4TrPgSmeOwgaqE=\""
+          "Value": "W/\"E2E1vlsZqqTfjSHJMznmYLwfhXu7+by+RKdbarSF1T8=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "9yvydnwulc"
+          "Value": "d8o1axom7k"
         },
         {
           "Name": "label",
@@ -16153,13 +15992,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-v8BiFb3649ejV8T2xkokrvjEwbRxW4TrPgSmeOwgaqE="
+          "Value": "sha256-E2E1vlsZqqTfjSHJMznmYLwfhXu7+by+RKdbarSF1T8="
         }
       ]
     },
     {
-      "Route": "_framework/MasteringBlazor.9yvydnwulc.pdb.gz",
-      "AssetFile": "E:\\2024's Projects\\AouCommunity-v1.0\\MasteringBlazor\\MasteringBlazor\\obj\\Debug\\net9.0\\compressed\\tdszj6nslm-9yvydnwulc.gz",
+      "Route": "_framework/MasteringBlazor.d8o1axom7k.pdb.gz",
+      "AssetFile": "E:\\2024's Projects\\AouCommunity-v1.0\\MasteringBlazor\\MasteringBlazor\\obj\\Debug\\net9.0\\compressed\\tdszj6nslm-d8o1axom7k.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -16168,7 +16007,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "36729"
+          "Value": "37907"
         },
         {
           "Name": "Content-Type",
@@ -16176,11 +16015,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"M17cvSDySyu5DjKws2HQoMHFa1BYKfkLPqqb3cQW6Vs=\""
+          "Value": "\"jAA37cmWjYb0ERm8mqVUS1uY5z6as13sB4Q/nn+KqZY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Feb 2025 16:12:03 GMT"
+          "Value": "Fri, 07 Feb 2025 17:45:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -16198,7 +16037,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "9yvydnwulc"
+          "Value": "d8o1axom7k"
         },
         {
           "Name": "label",
@@ -16206,7 +16045,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-M17cvSDySyu5DjKws2HQoMHFa1BYKfkLPqqb3cQW6Vs="
+          "Value": "sha256-jAA37cmWjYb0ERm8mqVUS1uY5z6as13sB4Q/nn+KqZY="
         }
       ]
     },
@@ -16221,7 +16060,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "46612"
+          "Value": "48132"
         },
         {
           "Name": "Content-Type",
@@ -16229,11 +16068,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"v8BiFb3649ejV8T2xkokrvjEwbRxW4TrPgSmeOwgaqE=\""
+          "Value": "\"E2E1vlsZqqTfjSHJMznmYLwfhXu7+by+RKdbarSF1T8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Feb 2025 16:12:02 GMT"
+          "Value": "Fri, 07 Feb 2025 17:45:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -16243,18 +16082,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-v8BiFb3649ejV8T2xkokrvjEwbRxW4TrPgSmeOwgaqE="
+          "Value": "sha256-E2E1vlsZqqTfjSHJMznmYLwfhXu7+by+RKdbarSF1T8="
         }
       ]
     },
     {
       "Route": "_framework/MasteringBlazor.pdb",
-      "AssetFile": "E:\\2024's Projects\\AouCommunity-v1.0\\MasteringBlazor\\MasteringBlazor\\obj\\Debug\\net9.0\\compressed\\tdszj6nslm-9yvydnwulc.gz",
+      "AssetFile": "E:\\2024's Projects\\AouCommunity-v1.0\\MasteringBlazor\\MasteringBlazor\\obj\\Debug\\net9.0\\compressed\\tdszj6nslm-d8o1axom7k.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000027225701"
+          "Quality": "0.000026379656"
         }
       ],
       "ResponseHeaders": [
@@ -16264,15 +16103,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "36729"
+          "Value": "37907"
         },
         {
           "Name": "ETag",
-          "Value": "\"M17cvSDySyu5DjKws2HQoMHFa1BYKfkLPqqb3cQW6Vs=\""
+          "Value": "\"jAA37cmWjYb0ERm8mqVUS1uY5z6as13sB4Q/nn+KqZY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Feb 2025 16:12:03 GMT"
+          "Value": "Fri, 07 Feb 2025 17:45:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -16292,19 +16131,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"v8BiFb3649ejV8T2xkokrvjEwbRxW4TrPgSmeOwgaqE=\""
+          "Value": "W/\"E2E1vlsZqqTfjSHJMznmYLwfhXu7+by+RKdbarSF1T8=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-v8BiFb3649ejV8T2xkokrvjEwbRxW4TrPgSmeOwgaqE="
+          "Value": "sha256-E2E1vlsZqqTfjSHJMznmYLwfhXu7+by+RKdbarSF1T8="
         }
       ]
     },
     {
       "Route": "_framework/MasteringBlazor.pdb.gz",
-      "AssetFile": "E:\\2024's Projects\\AouCommunity-v1.0\\MasteringBlazor\\MasteringBlazor\\obj\\Debug\\net9.0\\compressed\\tdszj6nslm-9yvydnwulc.gz",
+      "AssetFile": "E:\\2024's Projects\\AouCommunity-v1.0\\MasteringBlazor\\MasteringBlazor\\obj\\Debug\\net9.0\\compressed\\tdszj6nslm-d8o1axom7k.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -16313,7 +16152,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "36729"
+          "Value": "37907"
         },
         {
           "Name": "Content-Type",
@@ -16321,11 +16160,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"M17cvSDySyu5DjKws2HQoMHFa1BYKfkLPqqb3cQW6Vs=\""
+          "Value": "\"jAA37cmWjYb0ERm8mqVUS1uY5z6as13sB4Q/nn+KqZY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Feb 2025 16:12:03 GMT"
+          "Value": "Fri, 07 Feb 2025 17:45:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -16343,7 +16182,168 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-M17cvSDySyu5DjKws2HQoMHFa1BYKfkLPqqb3cQW6Vs="
+          "Value": "sha256-jAA37cmWjYb0ERm8mqVUS1uY5z6as13sB4Q/nn+KqZY="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/MasteringBlazor.wanni0xrlo.wasm",
+      "AssetFile": "E:\\2024's Projects\\AouCommunity-v1.0\\MasteringBlazor\\MasteringBlazor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\MasteringBlazor.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "57109"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uPdUBvvXnwpYhILFnA4k8cS5mmD9Ie7fwunQgZrd0fY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 07 Feb 2025 17:45:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wanni0xrlo"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/MasteringBlazor.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-uPdUBvvXnwpYhILFnA4k8cS5mmD9Ie7fwunQgZrd0fY="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/MasteringBlazor.wanni0xrlo.wasm",
+      "AssetFile": "E:\\2024's Projects\\AouCommunity-v1.0\\MasteringBlazor\\MasteringBlazor\\obj\\Debug\\net9.0\\compressed\\3azx4pkcnm-wanni0xrlo.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000043164847"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23166"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+h5PJlkyuPm/YHjWZ/nL+0+EC4d3aQQeyAdKsFeBQKM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 07 Feb 2025 17:45:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"uPdUBvvXnwpYhILFnA4k8cS5mmD9Ie7fwunQgZrd0fY=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wanni0xrlo"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/MasteringBlazor.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-uPdUBvvXnwpYhILFnA4k8cS5mmD9Ie7fwunQgZrd0fY="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/MasteringBlazor.wanni0xrlo.wasm.gz",
+      "AssetFile": "E:\\2024's Projects\\AouCommunity-v1.0\\MasteringBlazor\\MasteringBlazor\\obj\\Debug\\net9.0\\compressed\\3azx4pkcnm-wanni0xrlo.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23166"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+h5PJlkyuPm/YHjWZ/nL+0+EC4d3aQQeyAdKsFeBQKM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 07 Feb 2025 17:45:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wanni0xrlo"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/MasteringBlazor.wasm.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+h5PJlkyuPm/YHjWZ/nL+0+EC4d3aQQeyAdKsFeBQKM="
         }
       ]
     },
@@ -16358,7 +16358,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "54549"
+          "Value": "57109"
         },
         {
           "Name": "Content-Type",
@@ -16366,11 +16366,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"GTq3IS0orGOkDSXjVOHLWodFAz6rurwr9IZf8fyrgnU=\""
+          "Value": "\"uPdUBvvXnwpYhILFnA4k8cS5mmD9Ie7fwunQgZrd0fY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Feb 2025 16:12:02 GMT"
+          "Value": "Fri, 07 Feb 2025 17:45:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -16380,18 +16380,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-GTq3IS0orGOkDSXjVOHLWodFAz6rurwr9IZf8fyrgnU="
+          "Value": "sha256-uPdUBvvXnwpYhILFnA4k8cS5mmD9Ie7fwunQgZrd0fY="
         }
       ]
     },
     {
       "Route": "_framework/MasteringBlazor.wasm",
-      "AssetFile": "E:\\2024's Projects\\AouCommunity-v1.0\\MasteringBlazor\\MasteringBlazor\\obj\\Debug\\net9.0\\compressed\\3azx4pkcnm-7snmgx3l7g.gz",
+      "AssetFile": "E:\\2024's Projects\\AouCommunity-v1.0\\MasteringBlazor\\MasteringBlazor\\obj\\Debug\\net9.0\\compressed\\3azx4pkcnm-wanni0xrlo.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000045022736"
+          "Quality": "0.000043164847"
         }
       ],
       "ResponseHeaders": [
@@ -16401,15 +16401,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "22210"
+          "Value": "23166"
         },
         {
           "Name": "ETag",
-          "Value": "\"5LQCZ8wTYMmiNMVOpGxTOawThx7u06lBRy+w35T09dU=\""
+          "Value": "\"+h5PJlkyuPm/YHjWZ/nL+0+EC4d3aQQeyAdKsFeBQKM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Feb 2025 16:12:03 GMT"
+          "Value": "Fri, 07 Feb 2025 17:45:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -16429,19 +16429,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"GTq3IS0orGOkDSXjVOHLWodFAz6rurwr9IZf8fyrgnU=\""
+          "Value": "W/\"uPdUBvvXnwpYhILFnA4k8cS5mmD9Ie7fwunQgZrd0fY=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-GTq3IS0orGOkDSXjVOHLWodFAz6rurwr9IZf8fyrgnU="
+          "Value": "sha256-uPdUBvvXnwpYhILFnA4k8cS5mmD9Ie7fwunQgZrd0fY="
         }
       ]
     },
     {
       "Route": "_framework/MasteringBlazor.wasm.gz",
-      "AssetFile": "E:\\2024's Projects\\AouCommunity-v1.0\\MasteringBlazor\\MasteringBlazor\\obj\\Debug\\net9.0\\compressed\\3azx4pkcnm-7snmgx3l7g.gz",
+      "AssetFile": "E:\\2024's Projects\\AouCommunity-v1.0\\MasteringBlazor\\MasteringBlazor\\obj\\Debug\\net9.0\\compressed\\3azx4pkcnm-wanni0xrlo.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -16450,7 +16450,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "22210"
+          "Value": "23166"
         },
         {
           "Name": "Content-Type",
@@ -16458,11 +16458,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"5LQCZ8wTYMmiNMVOpGxTOawThx7u06lBRy+w35T09dU=\""
+          "Value": "\"+h5PJlkyuPm/YHjWZ/nL+0+EC4d3aQQeyAdKsFeBQKM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Feb 2025 16:12:03 GMT"
+          "Value": "Fri, 07 Feb 2025 17:45:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -16480,7 +16480,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-5LQCZ8wTYMmiNMVOpGxTOawThx7u06lBRy+w35T09dU="
+          "Value": "sha256-+h5PJlkyuPm/YHjWZ/nL+0+EC4d3aQQeyAdKsFeBQKM="
         }
       ]
     },

@@ -1,8 +1,8 @@
 ﻿@page "/"
 @inject IJSRuntime JSRuntime
 @inject IBookService BookService
-
-<PageTitle>Home</PageTitle>
+@inject NavigationManager _Navigation
+<PageTitle>Home | Page @PageNumber</PageTitle>
 
 Welcome to your new app.
 
@@ -11,6 +11,12 @@ Welcome to your new app.
         <BookCard Book="book" OnAddToCartClicked="AddToCart"/>
     </ItemTemplate>
 </DataListView>
+
+<div class="mt-2">
+    <button class="btn btn-primary" @onclick="() => GoToPage(1)">1</button>
+    <button class="btn btn-primary" @onclick="() => GoToPage(2)">2</button>
+    <button class="btn btn-primary" @onclick="() => GoToPage(3)">3</button>
+</div>
 
 <h3>My Cart</h3>
 @foreach (var book in _booksCart)
@@ -31,6 +37,9 @@ Welcome to your new app.
 
 
 @code {
+    [Parameter]
+    [SupplyParameterFromQuery(Name = "pageNumber")]
+    public int PageNumber { get; set; }
 
     private List<Book> _books = new();
     private List<Book>? _booksCart = new();
@@ -40,6 +49,12 @@ Welcome to your new app.
     {
         var module = await JSRuntime.InvokeAsync<IJSObjectReference>("import", "./js/script.js");
         _books = await BookService.GetAllBooksAsync();
+    }
+
+    protected override void OnParametersSet()
+    {
+        if(PageNumber <= 0)
+            PageNumber = 1;
     }
 
     private void AddToCart(Book book)
@@ -53,5 +68,11 @@ Welcome to your new app.
         PublishingDate = new DateTime(2003, 2, 15),
         Title = "How to get Born"
     };
+    
+    private void GoToPage(int pageNumber)
+    {
+        PageNumber = pageNumber;
+        _Navigation.NavigateTo($"/?pageNumber={pageNumber}");
+    }
 
 }

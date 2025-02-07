@@ -1,9 +1,10 @@
 ﻿@page "/counter"
-
+@inject AppStateContainer AppStateContainer
+@layout UserLayout
 <PageTitle>Counter</PageTitle>
 
 <p role="status">Current count: @currentCount</p>
-
+<button class="btn btn-primary" @onclick="IncrementCount">Increment Count</button>
 @code {
     [Parameter]
     [SupplyParameterFromQuery (Name = "currentCount")]
@@ -25,6 +26,7 @@
     private void IncrementCount()
     {
         currentCount++;
+        AppStateContainer.UpdateCounter(currentCount);
     }
     private Book _firstBook = new Book
     {
